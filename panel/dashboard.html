@@ -1,0 +1,6 @@
+<!doctype html>
+<title>Skim Panel</title>
+<pre id="log"></pre>
+<script>
+fetch('exfil.csv').then(r=>r.text()).then(t=>document.getElementById('log').textContent=t);
+</script>

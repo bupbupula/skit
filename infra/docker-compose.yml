@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  skim:
+    build: .
+    ports: ["3000:3000"]
+    environment:
+      - BEACON=collector.cloudflare-edge.workers.dev/r

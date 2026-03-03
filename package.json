@@ -1,0 +1,14 @@
+{
+ "name":"skim-kit",
+ "version":"1.0.0",
+ "type":"module",
+ "scripts":{
+  "start":"node src/index.js",
+  "build":"node tools/packer.mjs",
+  "deploy":"git push heroku main"
+ },
+ "dependencies":{
+  "express":"^4.19",
+  "node-html-parser":"^6.1"
+ }
+}
